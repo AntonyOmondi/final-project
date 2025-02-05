@@ -21,30 +21,28 @@
             </ul>
         </nav>
         <div class="container" id="registerDiv">
-            <form class="reg">
-                <legend>Registration</legend>
-                <input type="text" id="firstName" placeholder="First Name" required>
-                <input type="text" id="secondName" placeholder="Second Name" required>
-                <input type="text" id="surname" placeholder="Surname" required>
-                <input type="email" id="email" placeholder="Email" required>
-                <select id="gender">
-                    <option value="">Select Gender</option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                </select>
-                <select id="sport">
-                    <option value="">Select Sport</option>
-                    <option value="Football">Football</option>
-                    <option value="Rugby">Rugby</option>
-                    <option value="Cricket">Cricket</option>
-                    <option value="Swimming">Swimming</option>
-                    <option value="Others">Others</option>
-                </select>
-                <input type="password" id="password" placeholder="Password" required>
-                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
-                <button onclick="registerUser()">Register</button>
-                <p>Already have an account? <a href="#" onclick="toggleForms()">Login here</a></p>
-            </form>
+            <legend>Registration</legend>
+             <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="secondName" placeholder="Second Name" required>
+             <input type="text" id="surname" placeholder="Surname" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <select id="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <select id="sport">
+                <option value="">Select Sport</option>
+                <option value="Football">Football</option>
+                <option value="Rugby">Rugby</option>
+                <option value="Cricket">Cricket</option>
+                <option value="Swimming">Swimming</option>
+                <option value="Athletics">Athletics</option>
+            </select>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <button onclick="registerUser()">Register</button>
+            <p>Already have an account? <a href="#" onclick="toggleForms()">Login here</a></p>
         </div>
         <div class="container hidden" id="loginDiv">
             <h2>Login</h2>
@@ -54,6 +52,6 @@
             <p>Don't have an account? <a href="#" onclick="toggleForms()">Register here</a></p>
         </div>
     </header>
-    <script src=""></script>
+    <script src="src/script.js"></script>
 </body>
 </html>
