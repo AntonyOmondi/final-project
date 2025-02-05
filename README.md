@@ -77,7 +77,6 @@ final-project
 │   └── style.css               # CSS for landing page
 ├── src                         # Folder for JavaScript files   
 │   └── script.js               # JavaScript for form functionality (login, registration) 
-├── reg.html                    # Registration/Login page HTML file 
 ├── hello.html                  # Dashboard page HTML file
 ├── index.html                  # Landing page HTML file
 ├── members.html                # Members page HTML file
