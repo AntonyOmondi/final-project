@@ -20,10 +20,16 @@ header {
     padding: 1rem;
     padding-top: 2rem;
 }
+.title h1 {
+    color: rgba(0, 213, 255, 0.804);
+    text-shadow: 2px 2px 1px black;
+    font-size: 30px;
+
+}
 nav {
     display: flex;
     justify-content: space-between;
-    padding: .5rem;
+    padding:.5rem;
     padding-left: 1rem;
     border-radius: 2.7rem;
     align-items: center;
@@ -39,11 +45,12 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 nav ul li a:hover {
-    color: rgb(101, 205, 101);
+    color: rgba(0, 213, 255, 0.804);
     cursor: pointer;
-    text-shadow: 1px 1px 1px chocolate;
+    text-shadow: 2px 2px 1px black;
 }
 .row {
     display: flex;
@@ -60,6 +67,8 @@ nav ul li a:hover {
 }
 .content h2 {
     padding-bottom: 1rem;
+    color: rgba(0, 213, 255, 0.804);
+    text-shadow: 2px 2px 1px black;
 }
 .container{
     background-color: rgb(6, 125, 185);
@@ -73,10 +82,12 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    justify-content: center;
+   
 }
 .aboutus h2 {
     padding-bottom: 1rem;
+    color: rgba(0, 213, 255, 0.804);
+    text-shadow: 2px 2px 1px black;
 }
 .container .services {
     width: 75%;
@@ -90,17 +101,23 @@ strong{
 }
 .services h2 {
     padding-bottom: 1rem;
+    color: rgba(0, 213, 255, 0.804);
+    text-shadow: 2px 2px 1px black;
 }
 .services p {
     text-align: center;
 }
 .contacts {
-    background-color: rgba(0, 213, 255, 0.804);
+    background-color: rgba(55, 195, 223, 0.804);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
     margin: auto;
+}
+.contacts-header {
+    color: rgba(0, 213, 255, 0.804);
+    text-shadow: 2px 2px 1px black;
 }
 .contacts-info {
     display: flex;

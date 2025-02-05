@@ -10,14 +10,18 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 2rem;
     padding-left: 1rem;
     border-radius: 2.7rem;
     align-items: center;
     margin: auto;
     padding-bottom: 10rem;
 }
-
+.title h1{
+    color: rgba(0, 213, 255, 0.804);
+    font-size: 30px;
+    text-shadow: 2px 2px 1px black;
+}
 li {
     list-style: none;
     display: inline-block;
@@ -30,12 +34,13 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
-    color: rgb(101, 205, 101);
+    color: rgba(0, 213, 255, 0.804);
     cursor: pointer;
-    text-shadow: 1px 1px 1px chocolate;
+    text-shadow: 2px 2px 1px black;
 }
 
 body {
@@ -55,7 +60,14 @@ header {
     width: 300px;
     margin: auto;
 }
-
+.container p a{
+    color: rgba(0, 213, 255, 0.804);
+}
+legend {
+    font-size: 30px;
+    padding: 1rem;
+    font-weight: 400;
+}
 input,
 select,
 button {
@@ -63,4 +75,20 @@ button {
     margin: 5px 0;
     padding: 8px;
 }
-
+button:hover {
+    border: 2px solid rgba(0, 213, 255, 0.804);
+    color: rgba(0, 213, 255, 0.804);
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+}
+.hidden {
+    display: none;
+}
+input, button, select {
+    border-radius: .5rem;
+}
+form h2 {
+    font-size: 30px;
+    padding: 1rem;
+    font-weight: 400;
+}
