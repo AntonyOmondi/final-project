@@ -15,12 +15,12 @@ nav {
     border-radius: 2.7rem;
     align-items: center;
     margin: auto;
-    padding-bottom: 10rem;
 }
 .title h1{
     color: rgba(0, 213, 255, 0.804);
     font-size: 30px;
     text-shadow: 2px 2px 1px black;
+    padding-bottom: 0;
 }
 li {
     list-style: none;
@@ -168,7 +168,7 @@ form h2 {
 @media screen and (min-width: 1025px) {
     nav {
         padding: 2rem;
-        padding-bottom: 10rem;
+        padding-bottom: 5.5rem;
     }
 
     .title h1 {

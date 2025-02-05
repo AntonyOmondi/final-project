@@ -21,7 +21,7 @@ function registerUser() {
         return;
     }
 
-    //datat captured is stored in localStorage
+    //data captured is stored in localStorage
     let user = { firstName, secondName, surname, email, gender, sport, password };
     localStorage.setItem(email, JSON.stringify(user));
     alert("Registration successful! Please login.");
@@ -46,7 +46,7 @@ function loginUser() {
     }
 
     alert("Login successful! Welcome " + user.firstName);
-    
+
     // Redirect to another page after login
     window.location.href = "dashboard.html"; 
 }
