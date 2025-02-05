@@ -58,8 +58,33 @@ The website features a navigation bar, a responsive design, and modern UI elemen
 
 The project has the following file structure:
 
-/kenya-athletes-association │ ├── /images # Folder for image assets │ ├── fireworks.jpg # Image for the dashboard │ ├── sportsbg.jpg # Background image for the header │ └── favicon.jpg # Favicon for the site │ ├── /css # Folder for CSS styles │ ├── reg.css # CSS for registration/login page │ └── hello.css # CSS for dashboard page │ ├── /src # Folder for JavaScript files │ └── script.js # JavaScript for form functionality (login, registration) │ ├── reg.html # Registration/Login page HTML file ├── hello.html # Dashboard page HTML file └── README.md # Project documentation (this file)
+```
+final-project
+├── images                      # Folder for image assets 
+│   ├── athletics.jpg           # Image for the members page
+│   ├── contentPhoto.jpg        # Image for the dashboard
+│   ├── cricket.jpg             # Image for the members page
+│   ├── favicon.jpg             # Favicon for the site
+│   ├── fireworks.jpg           # Image for the dashboard
+│   ├── football.jpg            # Image for the members page
+│   ├── rugby.jpg               # Image for the members page 
+│   ├── sportsbg.jpg            # Background image for the header 
+│   └── swimming.jpg            # Image for the members page 
+├── css                         # Folder for CSS styles 
+│   ├── hello.css               # CSS for dashboard page   
+│   ├── members.css             # CSS for members page
+│   ├── reg.css                 # CSS for registration/login page
+│   └── style.css               # CSS for landing page
+├── src                         # Folder for JavaScript files   
+│   └── script.js               # JavaScript for form functionality (login, registration) 
+├── reg.html                    # Registration/Login page HTML file 
+├── hello.html                  # Dashboard page HTML file
+├── index.html                  # Landing page HTML file
+├── members.html                # Members page HTML file
+├── reg.html                    # Registration/Login page HTML file 
+└── README.md                   # Project documentation
 
+```
 
 ## Technologies Used
 
