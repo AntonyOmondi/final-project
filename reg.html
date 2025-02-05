@@ -46,7 +46,14 @@
                 <p>Already have an account? <a href="#" onclick="toggleForms()">Login here</a></p>
             </form>
         </div>
+        <div class="container hidden" id="loginDiv">
+            <h2>Login</h2>
+            <input type="email" id="loginEmail" placeholder="Email" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button onclick="loginUser()">Login</button>
+            <p>Don't have an account? <a href="#" onclick="toggleForms()">Register here</a></p>
+        </div>
     </header>
-    <script></script>
+    <script src=""></script>
 </body>
 </html>
