@@ -69,3 +69,88 @@ footer {
     text-align: center;
     text-shadow: none;
 }
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    nav ul {
+        padding-top: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .title h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        margin: 1rem;
+        font-size: 22px;
+    }
+
+    .content {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    footer {
+        padding: 1rem;
+        font-size: 14px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    nav {
+        padding: 1.5rem;
+    }
+
+    .title h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .content {
+        padding: 2rem;
+    }
+
+    footer {
+        padding: 1.5rem;
+        font-size: 16px;
+    }
+}
+
+/* Desktop and above */
+@media screen and (min-width: 1025px) {
+    nav {
+        padding: 2rem;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .content {
+        padding: 3rem;
+    }
+
+    footer {
+        padding: 2rem;
+        font-size: 18px;
+    }
+}
