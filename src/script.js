@@ -8,12 +8,12 @@ function registerUser() {
     let sport = document.getElementById('sport').value;
     let password = document.getElementById('password').value;
     let confirmPassword = document.getElementById('confirmPassword').value;
-
+    //if statement checks's if the passwords match before accepting registration
     if (password !== confirmPassword) {
         alert("Passwords do not match!");
         return;
     }
-
+    //datat captured is stored in localStorage
     let user = { firstName, secondName, surname, email, gender, sport, password };
     localStorage.setItem(email, JSON.stringify(user));
     alert("Registration successful! Please login.");
