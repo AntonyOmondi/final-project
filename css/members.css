@@ -108,3 +108,141 @@ a {
     border-radius: 1rem;
     box-shadow: 5px 5px 3px rgb(37, 208, 246);
 }
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    nav ul {
+        padding-top: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .title h1 {
+        font-size: 24px;
+    }
+
+    .members-title h1 {
+        font-size: 28px;
+    }
+
+    .column {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image {
+        width: 90%;
+        height: auto;
+    }
+
+    .image img {
+        border-radius: 0.5rem;
+    }
+
+    .image-content {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    header {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    nav {
+        padding: 1rem;
+    }
+
+    nav ul li {
+        margin-left: 1rem;
+    }
+
+    .title h1 {
+        font-size: 26px;
+    }
+
+    .members-title h1 {
+        font-size: 35px;
+    }
+
+    .column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        width: 70%;
+        height: auto;
+    }
+
+    .image img {
+        border-radius: 0.7rem;
+    }
+
+    .image-content {
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+}
+
+/* Desktop and above */
+@media screen and (min-width: 1025px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 2rem;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .members-title h1 {
+        font-size: 40px;
+    }
+
+    .column {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .image {
+        width: 20vw;
+        height: 40vh;
+    }
+
+    .image img {
+        border-radius: 1rem;
+    }
+
+    .image-content {
+        width: 50%;
+    }
+}

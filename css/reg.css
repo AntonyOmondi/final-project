@@ -92,3 +92,101 @@ form h2 {
     padding: 1rem;
     font-weight: 400;
 }
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    nav ul {
+        padding-top: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .title h1 {
+        font-size: 24px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    input,
+    select,
+    button {
+        padding: 10px;
+    }
+
+    legend,
+    form h2 {
+        font-size: 24px;
+    }
+
+    header {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    nav {
+        padding: 1.5rem;
+        padding-bottom: 6rem;
+    }
+
+    .title h1 {
+        font-size: 26px;
+    }
+
+    .container {
+        width: 400px;
+    }
+
+    legend,
+    form h2 {
+        font-size: 28px;
+    }
+
+    input,
+    select,
+    button {
+        padding: 12px;
+    }
+}
+
+/* Desktop and above */
+@media screen and (min-width: 1025px) {
+    nav {
+        padding: 2rem;
+        padding-bottom: 10rem;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    legend,
+    form h2 {
+        font-size: 30px;
+    }
+
+    input,
+    select,
+    button {
+        padding: 8px;
+    }
+}
