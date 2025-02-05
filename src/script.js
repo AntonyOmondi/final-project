@@ -19,3 +19,24 @@ function registerUser() {
     alert("Registration successful! Please login.");
     toggleForms();
 }
+//login function that enable users' with accounts registered to login
+function loginUser() {
+    let email = document.getElementById('loginEmail').value;
+    let password = document.getElementById('loginPassword').value;
+    let user = localStorage.getItem(email);
+
+    if (!user) {
+        alert("User not found!");
+        return;
+    }
+
+    user = JSON.parse(user);
+    if (user.password !== password) {
+        alert("Incorrect password!");
+        return;
+    }
+
+    alert("Login successful! Welcome " + user.firstName);
+    // Redirect to another page after login
+    window.location.href = "dashboard.html"; 
+}
