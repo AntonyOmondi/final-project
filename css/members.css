@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+header {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.85) 0%, rgba(121, 9, 104, 0.558) 35%, rgba(0, 213, 255, 0.804) 100%), url(/images/sportsbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.title h1 {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+.title p {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 300;
+}
+.container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.image {
+    border: 1px solid;
+    height: 40vh;
+    width: 20vw;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+}
