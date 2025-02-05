@@ -11,13 +11,14 @@ body {
     text-shadow: 1px 1px 1px black;
 }
 header {
-    background: url(/images/sportsbg.jpg);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.85) 0%, rgba(121, 9, 104, 0.558) 35%, rgba(0, 213, 255, 0.804) 100%), url(/images/sportsbg.jpg);
     background-size: cover;background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
 }
 .title {
     padding: 1rem;
+    padding-top: 2rem;
 }
 nav {
     display: flex;
@@ -43,4 +44,77 @@ nav ul li a:hover {
     color: rgb(101, 205, 101);
     cursor: pointer;
     text-shadow: 1px 1px 1px chocolate;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-top: 4rem;
+}
+.contentPhoto {
+    padding-left: 1rem;
+}
+.contentPhoto img {
+    box-shadow: 3px 3px 3px black;
+    border-radius: 1rem;
+}
+.content h2 {
+    padding-bottom: 1rem;
+}
+.container{
+    background-color: rgb(6, 125, 185);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.container .aboutus {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+}
+.container .services {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+strong{
+    text-decoration: underline;
+}
+.services p {
+    text-align: center;
+}
+.contacts {
+    background-color: rgba(0, 213, 255, 0.804);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: auto;
+}
+.contacts-info {
+    display: flex;
+    height: 50%;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+.map {
+    height: 70%;
+    width: 20%;
+}
+.map iframe {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+.map h3 {
+    text-align: center;
 }
