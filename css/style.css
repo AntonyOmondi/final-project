@@ -141,7 +141,13 @@ strong{
 .map h3 {
     text-align: center;
 }
-
+footer {
+    background-color: rgb(57, 227, 227);
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    text-shadow: none;
+}
 
 /* Mobile */
 @media screen and (max-width: 600px) {

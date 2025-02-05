@@ -92,6 +92,13 @@ form h2 {
     padding: 1rem;
     font-weight: 400;
 }
+footer {
+    background-color: rgb(57, 227, 227);
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    text-shadow: none;
+}
 
 /* Mobile */
 @media screen and (max-width: 600px) {

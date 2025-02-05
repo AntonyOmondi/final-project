@@ -108,6 +108,13 @@ a {
     border-radius: 1rem;
     box-shadow: 5px 5px 3px rgb(37, 208, 246);
 }
+footer {
+    background-color: rgb(57, 227, 227);
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    text-shadow: none;
+}
 
 /* Mobile */
 @media screen and (max-width: 600px) {

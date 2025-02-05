@@ -48,5 +48,5 @@ function loginUser() {
     alert("Login successful! Welcome " + user.firstName);
 
     // Redirect to another page after login
-    window.location.href = "dashboard.html"; 
+    window.location.href = "hello.html"; 
 }
